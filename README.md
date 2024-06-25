@@ -9,15 +9,10 @@ This is a project management tool API built with Django and Django REST Framewor
 
 ## Table of Contents
 
-- [Team Collaboration API](#team-collaboration-api)
-  - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [API Documentation](#api-documentation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-  - [Contributing](#contributing)
   - [License](#license)
 
 ## Features
@@ -70,9 +65,8 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-### Configure the Database
 
-Edit the `settings.py` file to configure your database settings. By default, Django uses SQLite, which requires no additional configuration.
+
 
 ### Apply Migrations
 
@@ -83,15 +77,9 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### Create a Superuser
-
-Create a superuser to access the Django admin interface:
-
-```bash
-python manage.py createsuperuser
-```
-
-Follow the prompts to set up the superuser credentials.
+                                                                                
+  
+  
 
 ### Run the Development Server
 
@@ -113,48 +101,9 @@ Alternatively, you can view the ReDoc documentation at:
 
 [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
 
-## Usage
-
-### Get JWT Token
-
-To authenticate, you need to obtain a JWT token. Use the following request:
-
-- **Method:** POST
-- **URL:** `http://127.0.0.1:8000/api/token/`
-- **Headers:** `Content-Type: application/json`
-- **Body:**
-    ```json
-    {
-        "username": "your_username",
-        "password": "your_password"
-    }
-    ```
-
-### Access Protected Endpoints
-
-Use the obtained JWT token to access protected endpoints:
-
-- **Method:** GET
-- **URL:** `http://127.0.0.1:8000/api/projects/`
-- **Headers:**
-    - `Authorization: Bearer your_access_token`
-
-## Testing
-
-To run the tests, use the following command:
-
-```bash
-python manage.py test
-```
                                                                                                                                                                                                                                                                                                                       
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-                                        
-  
-  
+This project is licensed under the MIT License. See the LICENSE file for details.                                                            
   
   
