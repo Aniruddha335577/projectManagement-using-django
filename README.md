@@ -1,10 +1,11 @@
-Sure, here's a README file tailored for someone setting up the project on a Windows 10 machine using the VS Code terminal:
-
----
+                                                            
+  
+  
+  
 
 # Team Collaboration API
 
-This project is a Team Collaboration API built with Django and Django REST Framework. It allows users to manage projects, tasks, and comments with role-based access control.
+This is a project management tool API built with Django and Django REST Framework. It allows users to manage projects, tasks, and comments with role-based access control.
 
 ## Table of Contents
 
@@ -46,8 +47,8 @@ First, clone the repository to your local machine:
 2. Run the following commands:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Aniruddha335577/projectManagement-using-django.git
+    cd projectManagement-using-django
     ```
 
 ### Create and Activate a Virtual Environment
@@ -145,18 +146,7 @@ To run the tests, use the following command:
 ```bash
 python manage.py test
 ```
-
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
+                                                                                                                                                                                                                                                                                                                      
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
