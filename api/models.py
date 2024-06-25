@@ -7,12 +7,12 @@ class User(AbstractUser):
     date_joined = models.DateTimeField(auto_now_add=True)
     groups = models.ManyToManyField(
         Group,
-        related_name='api_user_set',  # Add related_name attribute
+        related_name='api_user_set',  
         blank=True
     )
     user_permissions = models.ManyToManyField(
         Permission,
-        related_name='api_user_permissions_set',  # Add related_name attribute
+        related_name='api_user_permissions_set',  
         blank=True
     )
 
